@@ -1,9 +1,3 @@
-Clients module
-//login
-username = siddhesh.deokar+0009@acceleratebs.com
-password = Sid*141#
-submit_btn = button[type='submit']
-
 //selecting workspace
 signout_btn = //p[text()='Sign out']
 workspace_name = //p[text()='Disney']
