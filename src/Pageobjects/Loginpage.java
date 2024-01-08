@@ -31,8 +31,8 @@ public class Loginpage {
 		
 	public void entercredentials() {
 		
-	username.sendKeys("siddhesh.deokar@acceleratebs.com");
-	password.sendKeys("Sid*141#");
+	username.sendKeys("");
+	password.sendKeys("");
 	submit.click();
 	}
 	
