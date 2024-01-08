@@ -1,0 +1,56 @@
+Clients module
+//login
+username = siddhesh.deokar+0009@acceleratebs.com
+password = Sid*141#
+submit_btn = button[type='submit']
+
+//selecting workspace
+signout_btn = //p[text()='Sign out']
+workspace_name = //p[text()='Disney']
+
+//Navigating to Manage tab
+manage_tab = /html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/a[1]/div[1]
+
+//create client
+new_client_btn = a[href= '/clients/new']
+wait_addcontact_btn = //a[@href='/contacts/new']
+client_name_input = //input[@id='name']
+save_client_btn = //button[text()='Save Client']
+
+//create Contact
+save_contact = //button[@type='submit']
+client_name = Striker
+
+//update contact
+edit_contact_btn = (//a[contains(text(),'Edit')])[5]
+upd_contact_button = //button[text()='Update contact']
+
+//archive client
+edit_client_btn = a[href='/clients/6eGhsogKA/edit'] 
+archive_client_btn = /html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]
+
+//restore archived client
+View_archived_clients_btn = //a[text()='View archived clients']
+restore_client_btn = (//button[@type='button'][normalize-space()='Restore'])[2]
+back_toactive_clients_btn = //a[text()='Back to active clients']
+
+//update client
+edit_client_btntwice = //body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/a[1]
+update_client_btn = //button[text()='Update client']
+
+
+Project types module
+//create project type
+project_types_link = //a[@href='/project-types']//p[contains(text(),'Project Types')]
+new_project_type_btn = //button[text()='New project type']
+save_project_type_btn = button[type='submit']
+
+//Edit project type
+update_type_btn = //button[text()='Update type']//button[text()='Update type']
+
+New_Activity_btn = /html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/button[1]
+
+
+
+
+
